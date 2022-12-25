@@ -1,5 +1,5 @@
 import streamlit as st
+import subprocess
 
-st.write('''
-# Hello
-''')
+
+subprocess.run(["python", "python.py"])
