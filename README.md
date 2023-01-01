@@ -1,7 +1,8 @@
 # Tefillas HaTal V'Geshem
     #### Video Demo:  <URL HERE>
 
-    ## Overview
+## Overview
+    
 ### A Python program for determining the correct blessings for the current season, time and date. It uses the pyluach and PyMeeus libraries to manipulate and convert Gregorian & Hebrew dates, look up weekly parshiyos and holidays, and calculate sunset times. The program has been written and tested in the Eastern Time zone, so it is important to note that the outputs will not be accurate in other time zones. The program is available online at https://cs50-372911.ue.r.appspot.com/
 
     ## Dependencies
@@ -11,14 +12,14 @@
 >PyMeeus
 >pytz
 
-###You can install these libraries using pip. For example:
+### You can install these libraries using pip. For example:
 '''
 pip install pyluach
 pip install PyMeeus
 pip install pytz
 '''
-    ##Usage
-###The main entry point for this program is the parsha() function, which returns Hebrew date as a string and any parsha occasions (e.g. holidays, Shabbos). This function takes an optional datetime object as an argument, which defaults to the current time in the Eastern Time zone.
+    ## Usage
+### The main entry point for this program is the parsha() function, which returns Hebrew date as a string and any parsha occasions (e.g. holidays, Shabbos). This function takes an optional datetime object as an argument, which defaults to the current time in the Eastern Time zone.
 
 ###For example:
 '''
