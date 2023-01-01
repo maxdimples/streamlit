@@ -13,11 +13,11 @@
 >pytz
 
 #### You can install these libraries using pip. For example:
-'''
+"""
 pip install pyluach
 pip install PyMeeus
 pip install pytz
-'''
+"""
 
 ## Usage
 #### The main entry point for this program is the parsha() function, which returns Hebrew date as a string and any parsha occasions (e.g. holidays, Shabbos). This function takes an optional datetime object as an argument, which defaults to the current time in the Eastern Time zone.
@@ -56,10 +56,11 @@ print(tal_matar(datetime(2023, 1, 1)))
 - shmini(self, gr_d=None): Returns the date of Shmini Atzeres for the current year.
 - tekufas_Tishrei(self, gr_d=None): Returns the sunset datetime of tekufas Tishrei.
 
-    References
-https://pypi.org/project/pyluach/
-https://pypi.org/project/PyMeeus/
-https://halachipedia.com/index.php?title=Barech_Aleinu
-https://en.wikipedia.org/wiki/Tishrei
-https://outorah.org/p/22451/
-https://www.lookstein.org/professional-dev/misc/veten-tal-u-matar/
+## References
+
+#### https://pypi.org/project/pyluach/
+#### https://pypi.org/project/PyMeeus/
+#### https://halachipedia.com/index.php?title=Barech_Aleinu
+#### https://en.wikipedia.org/wiki/Tishrei
+#### https://outorah.org/p/22451/
+#### https://www.lookstein.org/professional-dev/misc/veten-tal-u-matar/
